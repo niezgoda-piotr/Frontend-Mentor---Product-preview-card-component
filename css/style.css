@@ -91,13 +91,6 @@ main {
     gap: var(--spacing-300);
 }
 
-/*
-    --text-preset-4-size: 0.75rem;
-    --text-preset-4-weight: 500;
-    --text-preset-4-line-height: 120%;
-    --text-preset-4-letter-spacing: 5px;
-
-*/
 .product-description__category {
     font-size: var(--text-preset-4-size);
     font-weight: var(--text-preset-4-weight);
@@ -121,3 +114,25 @@ main {
     line-height: var(--text-preset-3-line-height);
     color: var(--color-grey);
 }
+
+.product-shopping__price {
+    margin: var(--spacing-300) 0;
+    font-family: Fraunces monospace;
+    font-size: var(--text-preset-1-size);
+    font-weight: var(--text-preset-1-weight);
+    line-height: var(--text-preset-1-line-height);
+    color: var(--color-green-500);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-200);
+}
+
+.product-shopping__price--old {
+    font-family: Montaserrat monospace;
+    font-size: var(--text-preset-5-size);
+    font-weight: var(--text-preset-5-weight);
+    line-height: var(--text-preset-5-line-height);
+    text-decoration: line-through;
+    color: var(--color-grey);
+}
+
