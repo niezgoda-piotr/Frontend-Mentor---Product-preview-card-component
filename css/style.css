@@ -1,27 +1,37 @@
 :root {
-    --text-preset-1-size: 1.5rem;
-    --text-preset-1-weight: 600;
-    --text-preset-1-line-height: 150%;
+    --text-preset-1-size: 2rem;
+    --text-preset-1-weight: 700;
+    --text-preset-1-line-height: 100%;
 
     --text-preset-2-size: 0.875rem;
-    --text-preset-2-weight: 400;
-    --text-preset-2-line-height: 150%;
+    --text-preset-2-weight: 700;
+    --text-preset-2-line-height: 110%;
 
-    --text-preset-2-bold-size: 0.875rem;
-    --text-preset-2-bold-weight: 700;
-    --text-preset-2-bold-line-height: 150%;
+    --text-preset-3-size: 0.875rem;
+    --text-preset-3-weight: 500;
+    --text-preset-3-line-height: 160%;
 
-    --color-green: #C4F82A;
-    --color-grey-900: #141414;
-    --color-grey-800: #1F1F1F;
-    --color-grey-700: #333333;
+    --text-preset-4-size: 0.75rem;
+    --text-preset-4-weight: 500;
+    --text-preset-4-line-height: 120%;
+    --text-preset-4-letter-spacing: 5px;
+
+    --text-preset-5-size: 0.8125rem;
+    --text-preset-5-weight: 500;
+    --text-preset-5-line-height: 120%;
+
+    --color-green-500: #3D8168;
+    --color-green-700: #1A4032;
+    --color-black: #1C232B;
+    --color-grey: #6C7289;
+    --color-cream: #F2EAE2;
     --color-white: #FFFFFF;
 
-    --spacing-50: 0.25rem;
-    --spacing-100: 0.5rem;
-    --spacing-150: 0.75rem;
+    --spacing-50: 0.25rem;  /*  4px  */
+    --spacing-100: 0.5rem;  /*  8px  */
     --spacing-200: 1rem;
     --spacing-300: 1.5rem;  /*  24px  */
+    --spacing-400: 2rem;    /*  32px  */
     --spacing-500: 2.5rem;  /*  40px  */
 }
 
