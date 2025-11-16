@@ -51,5 +51,73 @@ figure, blockquote, dl, dd {
 
 body {
     font-family: 'Montaserrat', monospace;
-    color: red;
+    background-color: var(--color-cream);
+}
+
+main {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0.75rem;
+}
+
+.product {
+    width: 100%;
+    max-width: 21.875rem;   /*  350px  */
+    background-color: var(--color-white);
+    border-radius: var(--spacing-100);
+    overflow: hidden;
+}
+
+.product picture {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.product img {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+.product-info {
+    padding: var(--spacing-400);
+}
+
+.product-description {
+    display: grid;
+    gap: var(--spacing-300);
+}
+
+/*
+    --text-preset-4-size: 0.75rem;
+    --text-preset-4-weight: 500;
+    --text-preset-4-line-height: 120%;
+    --text-preset-4-letter-spacing: 5px;
+
+*/
+.product-description__category {
+    font-size: var(--text-preset-4-size);
+    font-weight: var(--text-preset-4-weight);
+    letter-spacing: var(--text-preset-4-letter-spacing);
+    line-height: var(--text-preset-4-line-height);
+    text-transform: uppercase;
+    color: var(--color-grey);
+}
+
+.product-description__name {
+    font-family: Fraunces monospace;
+    font-size: var(--text-preset-1-size);
+    font-weight: var(--text-preset-1-weight);
+    line-height: var(--text-preset-1-line-height);
+    color: var(--color-black);
+}
+
+.product-description__description {
+    font-size: var(--text-preset-3-size);
+    font-weight: var(--text-preset-3-weight);
+    line-height: var(--text-preset-3-line-height);
+    color: var(--color-grey);
 }
