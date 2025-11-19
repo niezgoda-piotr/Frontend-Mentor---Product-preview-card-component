@@ -142,7 +142,7 @@ main {
     align-items: center;
     gap: var(--spacing-100);
     width: 100%;
-    height: 3.125rem;
+    height: 3.125rem;   /*  50px  */
     background-color: var(--color-green-500);
     padding: 0;
     border: 0;
@@ -155,8 +155,11 @@ main {
     color: var(--color-white);
 }
 
-/*.product-shopping__add-to-card-but icon {*/
-/*    flex-shrink: 0;*/
-/*    height: 50px;*/
-/*}*/
+.product-shopping__add-to-card-but:hover {
+    background-color: var(--color-green-700);
+}
+
+.product-shopping__add-to-card-but:active {
+    background-color: var(--color-green-500);
+}
 
