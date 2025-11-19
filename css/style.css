@@ -50,7 +50,7 @@ figure, blockquote, dl, dd {
 /* *** */
 
 body {
-    font-family: 'Montaserrat', monospace;
+    font-family: 'Montserrat', monospace;
     background-color: var(--color-cream);
 }
 
@@ -99,7 +99,7 @@ main {
 }
 
 .product-description__name {
-    font-family: Fraunces monospace;
+    font-family: 'Fraunces', monospace;
     font-size: var(--text-preset-1-size);
     font-weight: var(--text-preset-1-weight);
     line-height: var(--text-preset-1-line-height);
@@ -115,7 +115,7 @@ main {
 
 .product-shopping__price {
     margin: var(--spacing-300) 0;
-    font-family: Fraunces monospace;
+    font-family: 'Fraunces', monospace;
     font-size: var(--text-preset-1-size);
     font-weight: var(--text-preset-1-weight);
     line-height: var(--text-preset-1-line-height);
@@ -126,7 +126,7 @@ main {
 }
 
 .product-shopping__price--old {
-    font-family: Montaserrat monospace;
+    font-family: 'Montserrat', monospace;
     font-size: var(--text-preset-5-size);
     font-weight: var(--text-preset-5-weight);
     line-height: var(--text-preset-5-line-height);
@@ -134,7 +134,7 @@ main {
     color: var(--color-grey);
 }
 
-.product-shopping__add-to-card-but {
+.product-shopping__add-to-cart-but {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,15 +153,15 @@ main {
     color: var(--color-white);
 }
 
-.product-shopping__add-to-card-but:hover {
+.product-shopping__add-to-cart-but:hover {
     background-color: var(--color-green-700);
 }
 
-.product-shopping__add-to-card-but:active {
+.product-shopping__add-to-cart-but:active {
     background-color: var(--color-green-500);
 }
 
-@media (min-width: 550px) { /*640px dobra wartosc*/
+@media (min-width: 34.375rem) {
     .product {
         display: grid;
         grid-template-columns: 1fr 1fr;
