@@ -63,8 +63,6 @@ main {
 }
 
 .product {
-    width: 100%;
-    max-width: 21.875rem;   /*  350px  */
     background-color: var(--color-white);
     border-radius: var(--spacing-100);
     overflow: hidden;
@@ -161,5 +159,41 @@ main {
 
 .product-shopping__add-to-card-but:active {
     background-color: var(--color-green-500);
+}
+
+@media (min-width: 550px) { /*640px dobra wartosc*/
+    .product {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        width: 100%;
+        max-width: 37.5rem; /*  600px  */
+    }
+
+    .product source {
+        display: none;
+    }
+
+    .product picture {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .product img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .product-description__name {
+        padding-right: var(--spacing-300) ;
+    }
+
+    .product-shopping__price {
+        margin: var(--spacing-400) 0;
+    }
 }
 
